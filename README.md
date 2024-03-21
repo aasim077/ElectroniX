@@ -20,6 +20,7 @@ The Electronic Store API harnesses a potent technology stack to deliver exceptio
 - **Docker:** Enables containerization of the Electronic Store API, providing a lightweight and portable solution for packaging applications and their dependencies, ensuring consistency across different environments.
 - **AWS Services:** Seamlessly integrates with Amazon Web Services to leverage cloud-based infrastructure, enhancing scalability, reliability, and performance while minimizing operational overhead.
 - **Postman:** Empowers developers to test and debug API endpoints effectively by providing a user-friendly interface for sending HTTP requests, inspecting responses, and automating workflows, ensuring the robustness and reliability of the Electronic Store API.
+- **JWT AUTHNETICATION:**JSON Web Token (JWT) is an open standard (RFC 7519) that defines a compact and self-contained way for securely transmitting information between parties as a JSON object. This information can be verified and trusted because it is digitally signed. JWTs can be signed using a secret (with the HMAC algorithm) or a public/private key pair using RSA or ECDSA. 
 
 ## Key Features and Functionalities
 
@@ -31,19 +32,6 @@ The Electronic Store API boasts an array of features designed to support various
 - **Order Management:** Provides robust functionalities for managing orders, including creation, update, retrieval, and removal of orders, as well as retrieval of ordered items, streamlining the order fulfillment process.
 - **Category Management:** Supports efficient organization of products into categories, offering CRUD operations for categories and operations for managing category-product relationships, enhancing product discoverability and navigation.
 
-## Technologies Utilized
-
-- **Spring Boot 3.2.2**
-- **Spring Data JPA**
-- **Spring Security**
-- **Spring MVC**
-- **Java 21**
-- **MySQL Database**
-- **Docker**
-- **AWS Services**
-- **Swagger for Documentation**
-- **JWT Authentication**
-- **Postman for Testing**
 
 ## REST APIs
 
