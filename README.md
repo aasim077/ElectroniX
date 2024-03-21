@@ -19,7 +19,8 @@ The Electronic Store API harnesses a potent technology stack to deliver exceptio
 - **Autowired Annotation:** Facilitates the automatic wiring of dependencies within Spring-managed components, reducing manual configuration and enhancing code maintainability.
 - **Docker:** Enables containerization of the Electronic Store API, providing a lightweight and portable solution for packaging applications and their dependencies, ensuring consistency across different environments.
 - **AWS Services:** Seamlessly integrates with Amazon Web Services to leverage cloud-based infrastructure, enhancing scalability, reliability, and performance while minimizing operational overhead.
-- **Postman:** Empowers developers to test and debug API endpoints effectively by providing a user-friendly interface for sending HTTP requests, inspecting responses, and automating workflows, ensuring the robustness and reliability of the Electronic Store API.
+- **Postman:** Empowers developers to test and debug API endpoints effectively by providing a user-friendly interface for sending HTTP requests, inspecting responses, and automating workflows, ensuring the robustness and reliability of the Electronic 
+   Store API.
 - **JWT AUTHNETICATION:**JSON Web Token (JWT) is an open standard (RFC 7519) that defines a compact and self-contained way for securely transmitting information between parties as a JSON object. This information can be verified and trusted because it is digitally signed. JWTs can be signed using a secret (with the HMAC algorithm) or a public/private key pair using RSA or ECDSA. 
 
 ## Key Features and Functionalities
