@@ -146,4 +146,4 @@ The Electronic Store API boasts an array of features designed to support various
 In conclusion, the Electronic Store API represents a powerful and versatile solution for driving e-commerce innovation. By harnessing the capabilities of Spring Boot, Spring Data JPA, Spring Security, and other cutting-edge technologies, the API offers unmatched performance, scalability, and security, empowering developers to build next-generation e-commerce platforms with confidence. Whether you're launching a startup or scaling a thriving online business, the Electronic Store API stands ready to unlock new potentials and drive success in the ever-evolving digital commerce landscape.
 
 -For any Queries Regarding the Project Contact: aasimahsan77@gmail.com
-- Hosted on EC2 instance, AWS FREE TIER ACCOUNT, the link will take a little time to open.
+- Hosted on EC2 instance, AWS FREE TIER ACCOUNT, http://13.126.54.93:9091/swagger-ui/index.html   the link will take a little time to open   
