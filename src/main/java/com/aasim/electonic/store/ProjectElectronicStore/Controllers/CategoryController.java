@@ -6,6 +6,7 @@ import com.aasim.electonic.store.ProjectElectronicStore.services.CategoryService
 import com.aasim.electonic.store.ProjectElectronicStore.services.FileService;
 import com.aasim.electonic.store.ProjectElectronicStore.services.ProductService;
 import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.validation.Valid;
@@ -26,6 +27,7 @@ import java.util.List;
 @RestController()
 @RequestMapping("/categories")
 @Tag(name = "Category Controller", description = " REST APIs Related to Category Operations")
+@SecurityRequirement(name="scheme1")
 
 public class CategoryController {
 

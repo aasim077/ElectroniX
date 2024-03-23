@@ -12,6 +12,7 @@ import com.google.api.client.googleapis.auth.oauth2.GoogleIdTokenVerifier;
 import com.google.api.client.http.javanet.NetHttpTransport;
 import com.google.api.client.json.jackson2.JacksonFactory;
 import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.modelmapper.ModelMapper;
 import org.slf4j.Logger;
@@ -41,6 +42,7 @@ import java.util.Map;
 //@Api(Value="AuthController" , description = "APIs for Authenticaion")
 //@CrossOrigin(origins = "https://domain1.com")   //we will allow only this domain
 //@CrossOrigin(origins ="http://localhost:4200",allowedHeaders = {"Authorization"},methods ={RequestMethod.GET,RequestMethod.POST}) we do configuation in a single place in security configuraiton that's why thisis no longer needed
+@SecurityRequirement(name="scheme1")
 public class AuthController{
     @Autowired
     private UserDetailsService userDetailsService;

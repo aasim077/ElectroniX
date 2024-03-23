@@ -4,6 +4,7 @@ import com.aasim.electonic.store.ProjectElectronicStore.dtos.*;
 import com.aasim.electonic.store.ProjectElectronicStore.services.FileService;
 import com.aasim.electonic.store.ProjectElectronicStore.services.ProductService;
 import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,6 +23,7 @@ import java.io.InputStream;
 @RestController
 @RequestMapping("/products")
 @Tag(name = "Product Controller", description = "REST APIs related to perform Product operations")
+@SecurityRequirement(name="scheme1")
 
 public class ProductController {
     @Autowired

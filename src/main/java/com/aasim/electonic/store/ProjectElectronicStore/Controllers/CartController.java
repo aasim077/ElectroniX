@@ -5,6 +5,7 @@ import com.aasim.electonic.store.ProjectElectronicStore.dtos.ApiResponseMessage;
 import com.aasim.electonic.store.ProjectElectronicStore.dtos.CartDto;
 import com.aasim.electonic.store.ProjectElectronicStore.services.CartService;
 import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -17,6 +18,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/carts")
 @Tag(name = "Cart Controller", description = "REST APIs related to Perform Cart operations")
+@SecurityRequirement(name="scheme1")
 
 public class CartController {
 

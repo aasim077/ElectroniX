@@ -3,6 +3,7 @@ package com.aasim.electonic.store.ProjectElectronicStore.Controllers;
 import com.aasim.electonic.store.ProjectElectronicStore.dtos.*;
 import com.aasim.electonic.store.ProjectElectronicStore.services.OrderService;
 import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,6 +17,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/orders")
 @Tag(name = "Order Controller", description = "REST APIs related to perform Order Operations")
+@SecurityRequirement(name="scheme1")
 public class OrderController {
 
     @Autowired

@@ -7,6 +7,7 @@ import com.aasim.electonic.store.ProjectElectronicStore.dtos.UserDto;
 import com.aasim.electonic.store.ProjectElectronicStore.services.FileService;
 import com.aasim.electonic.store.ProjectElectronicStore.services.UserService;
 import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.validation.Valid;
@@ -28,7 +29,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/users")
 @Tag(name = "User Controller", description = "REST APIs related to perform user operations")
-
+@SecurityRequirement(name="scheme1")
 public class UserController {
     @Autowired
     private UserService userService;
