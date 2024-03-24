@@ -68,8 +68,7 @@ The Electronic Store API boasts an array of features designed to support various
 
 ### Authentication Controller 🔒
 
-- `POST /auth/login`: User Login
-- `POST /auth/google`: Google OAuth Login
+- `POST /auth/login`: Get JWT Authentication token to access Apis 
 - `GET /auth/current`: Fetch Current User
 
 ### Order Controller 📦
