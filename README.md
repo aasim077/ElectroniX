@@ -148,6 +148,6 @@ In conclusion, the Electronic Store API represents a powerful and versatile solu
 
 For any Queries Regarding the Project, Feel Free to Contact: aasimahsan77@gmail.com
 
-[Explore the API Documentation](http://13.126.54.93:9091/swagger-ui/index.html) 📖
+[Explore the API Documentation in Swagger deployed on AWS EC2](http://13.126.54.93:9091/swagger-ui/index.html) 📖
 
 
